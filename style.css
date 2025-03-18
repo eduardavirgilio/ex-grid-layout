@@ -28,6 +28,8 @@
     border-radius: 50%;
     object-fit: cover;
     border: 4px solid var(--preto);
+    margin: 15px;
+
 }
 
 .grid-container__secao-cardapio{
@@ -64,6 +66,16 @@
     grid-column-start: 1;
     grid-column-end: 3;
     border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    align-items: center;
+}
+
+.grid-container__salgados-texto{
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 500;
 }
 
 .grid-container__frutas{
@@ -73,6 +85,13 @@
     grid-row-start: 1;
     grid-row-end: 3;
     border-radius: 15px;
+    padding: 20px;
+}
+
+.grid-container__frutas-texto{
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 500;
 }
 
 .grid-container__doces{
@@ -80,6 +99,15 @@
     grid-column-start: 1;
     grid-column-end: 1;
     border-radius: 15px;
+    padding: 20px;
+}
+
+.grid-container__lista-lado-1,
+.grid-container__lista-lado-2 {
+    display: flex;
+    flex-direction:row;
+    gap: 10px;
+    list-style: none;
 }
 
 .grid-container__sucos{
@@ -89,6 +117,13 @@
     grid-row-start: 2;
     grid-row-end: 4;
     border-radius: 15px;
+    padding: 20px;
+}
+
+.grid-container__sucos-texto{
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 500;
 }
 
 .grid-container__lanches{
