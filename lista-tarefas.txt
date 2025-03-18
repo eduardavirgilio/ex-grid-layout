@@ -1,0 +1,3 @@
+
+Criar uma descrição para cada item (Lorem Ipsum)
+Revisar o HTML e inserir tags semânticas

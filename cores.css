@@ -1,0 +1,21 @@
+:root{
+    /* cores */
+    --fundo-site-cor-1: brown;
+    --fundo-site-cor-2: rgb(242, 65, 65);
+    --fundo-cabecalho: rgb(255, 134, 134);
+    --preto: black;
+    --fundo-salgado-verde: rgb(106, 255, 0);
+    --fundo-salgado-azul: rgb(116, 244, 195);
+    --fundo-frutas-ciano: cadetblue;
+    --fundo-doces-dourado: darkgoldenrod;
+    --fundo-sucos-lilas: rgb(220, 138, 220);
+    --fundo-sucos-roxo: purple;
+    --fundo-lanches: darkseagreen;
+    --fundo-pizzas: sandybrown;
+
+    /* gradiente */
+    --gradiente-salgado: linear-gradient(to left, var(--fundo-salgado-verde), var(--fundo-salgado-azul));
+    --gradiente-sucos:  linear-gradient(to right, var(--fundo-sucos-lilas), var(--fundo-sucos-roxo));
+    --gradiente-fundo: linear-gradient(to left, var(--fundo-site-cor-1), var(--fundo-site-cor-2));
+}
+
