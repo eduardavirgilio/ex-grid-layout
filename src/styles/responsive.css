@@ -1,0 +1,31 @@
+@media(max-width: 1024px){
+
+    img {
+        max-width: 100%; 
+        height: auto;    
+    }
+
+    .grid-container__corpo{
+        background-color: var(--gradiente-fundo);
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media(max-width: 768px){
+    .grid-container__cardapio {
+        flex-direction: column;
+        display: flex;
+        padding: 20px;
+    }
+    
+    .grid-container__caixa {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .grid-container__salgados {
+        flex-direction: column;
+    }
+
+}
